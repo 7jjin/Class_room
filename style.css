@@ -1,0 +1,174 @@
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+body{
+    margin-bottom: 30px;
+}
+#entire{
+    display: flex;
+    
+}
+span{
+    cursor:default;
+}
+.class{
+    background-color: blanchedalmond;
+    margin:0 auto;
+    width: 1200px;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+}
+.passage{
+    /* position:relative; */
+    background-color: black;
+    width: 30px;
+    height: 1200px;
+    
+    
+    
+}
+.classRoom201{
+    display:flex;
+    position:relative;
+    background-color: rgb(199, 179, 31);
+    width: 200px;
+    height: 150px;
+    right: 200px;
+    top:0px;
+}
+.className{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    line-height: 150px;
+    font-size: 50px;
+}
+.classRoom_info{
+    position: absolute;
+    display: flex;
+    background-color: black;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+}
+.classRoom201:hover .classRoom_info{
+    opacity: 0.8;
+    transition:all 300ms ease-in;
+}
+.classRoom_info button{
+    font-size: 18px;
+    font-weight: 700;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 20%;
+}
+.classRoom_info span{
+    color:white;
+}
+.className2{
+    text-align: center;
+    line-height: 300px;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+}
+.classRoom202{
+    display:flex;
+    position:relative;
+    background-color: rgb(199, 179, 31);
+    width: 200px;
+    height: 300px;
+    right: 200px;
+    top:50px;
+}
+.classRoom202:hover .classRoom_info{
+    opacity: 0.8;
+    transition:all 300ms ease-in;
+}
+.className3{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    line-height: 400px;
+    font-size: 50px;
+}
+.classRoom203{
+    display:flex;
+    position:relative;
+    background-color: rgb(199, 179, 31);
+    width: 200px;
+    height: 400px;
+    right: 200px;
+    top:350px;
+}
+.classRoom203:hover .classRoom_info{
+    opacity: 0.8;
+    transition:all 300ms ease-in;
+}
+.classRoom204{
+    display:flex;
+    position:relative;
+    background-color: rgb(199, 179, 31);
+    width: 200px;
+    height: 200px;
+    left: 30px;
+    bottom:850px;
+}
+.classRoom204:hover .classRoom_info{
+    opacity: 0.8;
+    transition:all 300ms ease-in;
+}
+.classRoom205{
+    position:relative;
+    display:flex;
+    background-color: rgb(199, 179, 31);
+    width: 200px;
+    height: 200px;
+    left: 30px;
+    bottom:750px;
+}
+.classRoom205:hover .classRoom_info{
+    opacity: 0.8;
+    transition:all 300ms ease-in;
+}
+.classRoom206{
+    position:relative;
+    display:flex;
+    background-color: rgb(199, 179, 31);
+    width: 200px;
+    height: 400px;
+    left: 30px;
+    bottom:450px;
+}
+.className6{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    line-height:400px;
+    font-size: 50px;
+}
+.classRoom206:hover .classRoom_info{
+    opacity: 0.8;
+    transition:all 300ms ease-in;
+}
+
+
+
+
+
+
+
+
+
+
